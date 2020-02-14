@@ -27,6 +27,7 @@ console.log (name1 + myName+"." );
 //Ask the user 'What is their balance?' and storing it
 first_balance = prompt("What is your balnace?");
 
+// !! You shouldn't have a space between the word parseInt and the parens. It's a function just like console.log()
 // Subtracting $10 from the balance
 second_balance = parseInt (first_balance) - 10;
 
